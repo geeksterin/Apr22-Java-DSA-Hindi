@@ -23,13 +23,16 @@ public class input {
         // long a = scn.nextLong();
         // long b = scn.nextLong();
         // System.out.println("value of a and b is : " + a + " " + b);
-        
+
         // String str=scn.next();
         // System.out.println(str);
 
-        String str=scn.nextLine();
-        System.out.println(str);
+        // String str=scn.nextLine();
+        // System.out.println(str);
 
+        // double a = scn.nextDouble();
+        // double b = scn.nextDouble();
+        // System.out.println("value of a and b is : " + a + " " + b);
 
     }
 }
