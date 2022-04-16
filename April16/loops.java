@@ -16,11 +16,10 @@ public class loops {
         // }
         // System.out.println(i);
 
-        // int i;
-        // for (i = 1; i <= 10; i++) {
-        // System.out.println("kamal");
-        // }
-        // System.out.println(i);
-
+        int i;
+        for (i = 1; i <= 10; i++) {
+            System.out.println("kamal");
+        }
+        System.out.println(i);
     }
 }
