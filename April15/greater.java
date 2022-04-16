@@ -8,9 +8,9 @@ public class greater {
         int b = scn.nextInt();
         if (a > b) {
             System.out.println("A is greater");
-        } else if(a==b) {
+        } else if (a == b) {
             System.out.println("Equal");
-        }else{
+        } else {
             System.out.println("B is greater");
         }
     }
