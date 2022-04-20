@@ -37,7 +37,6 @@ public class typecasting {
         int ascii = 97;
         char ch = (char)ascii;
         System.out.println(ch);
-
     }
 
 }
