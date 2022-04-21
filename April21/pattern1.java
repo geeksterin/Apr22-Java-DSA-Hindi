@@ -26,7 +26,7 @@ public class pattern1 {
 
     public static void singleLine() {
         for (int i = 1; i <= 5; i++) {
-            System.out.print(i);
+            System.out.print("*");
         }
     }
 }

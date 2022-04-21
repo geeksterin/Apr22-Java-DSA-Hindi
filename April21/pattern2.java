@@ -17,8 +17,8 @@ public class pattern3 {
         }
     }
 
-    public static void singleLine(int numberofstarts) {
-        for (int i = 1; i <= numberofstarts; i++) {
+    public static void singleLine(int numberofstars) {
+        for (int i = 1; i <= numberofstars; i++) {
             System.out.print(i+" ");
         }
     }
