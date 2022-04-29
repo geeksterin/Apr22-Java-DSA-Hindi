@@ -22,26 +22,30 @@ public class ReverseArray {
     }
 
     public static void reverseArray(int[] arr) {
-        // new array
-        int[] copy = new int[arr.length];
+        for (int i = 0; i < arr.length / 2; i++) {
+            // swap ->(arr[i],arr[arr.length-i-1])
+            // b=((a+b)-(a=b))
+            // a=arr[i]
+            // b=arr[j]
 
-        // reverse adding into copy array
-        int j = 0;
-        for (int i = arr.length - 1; i >= 0; i--) {
-            // copy[arr.length - i - 1] = arr[i];
-            copy[j] = arr[i];
-            j++;
-        }
+            int j = arr.length - i - 1;
 
-        // copy back
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = copy[i];
+            // swap only aand b
+            // int a = arr[i];
+            // int b = arr[j];
+            // b = ((a + b) - (a = b));
+
+            // arr[i] = b;
+            // arr[j] = a;
+
+            // actual swap in array
+            arr[j] = ((arr[i] + arr[j]) - (arr[i] = arr[j]));
         }
     }
 
     public static void printArray(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
+        for (int ele : arr) {
+            System.out.print(ele + " ");
         }
         System.out.println();
     }
