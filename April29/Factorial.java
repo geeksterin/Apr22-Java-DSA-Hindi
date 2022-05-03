@@ -1,3 +1,4 @@
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class Factorial {
@@ -17,5 +18,7 @@ public class Factorial {
         }
         return product;
     }
+
+    
 
 }
