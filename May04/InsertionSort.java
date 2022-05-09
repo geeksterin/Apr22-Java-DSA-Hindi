@@ -5,9 +5,13 @@ public class InsertionSort {
 
     public static void main(String[] args) {
         int[] arr = { 10, 8, 7, 3, 2, 4, 1, 5, 6 };
+        long start = System.currentTimeMillis();
         printArray(arr);
         insertionSort(arr);
         printArray(arr);
+        long end = System.currentTimeMillis();
+        long time = end - start;// total time taken by program
+        System.out.println(time);
     }
 
     public static void insertionSort(int[] arr) {

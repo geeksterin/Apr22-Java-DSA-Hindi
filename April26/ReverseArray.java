@@ -7,7 +7,7 @@ public class ReverseArray {
         // size input
         int size = scn.nextInt();
         // array initialize
-        int[] arr = new int[size];
+        int[] arr = new int[size];// 1array
         // input
         input(arr);
         printArray(arr);
@@ -23,7 +23,7 @@ public class ReverseArray {
 
     public static void reverseArray(int[] arr) {
         // new array
-        int[] copy = new int[arr.length];
+        int[] copy = new int[arr.length];// 2nd array
 
         // reverse adding into copy array
         int j = 0;
