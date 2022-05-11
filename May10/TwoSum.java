@@ -10,7 +10,7 @@ public class TwoSum {
         System.out.println(ans[0] + " " + ans[1]);
     }
 
-    public static int[] twoSum(int[] arr) {
+    public static int[] twoSum(int[] arr,int target) {
         int[] ans = new int[2];
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
