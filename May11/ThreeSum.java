@@ -19,9 +19,9 @@ public class ThreeSum {
         int fval = arr[st - 1];
         while (st < end) {
 
-            while (end != arr.length - 1 && arr[end] == arr[end + 1]) {
+            if (end != arr.length - 1 && arr[end] == arr[end + 1]) {
                 end--;
-
+                continue;
             }
             int sum = arr[st] + arr[end];
             if (sum == target) {
