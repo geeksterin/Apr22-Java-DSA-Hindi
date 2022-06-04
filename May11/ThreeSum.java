@@ -18,7 +18,6 @@ public class ThreeSum {
     public static void twoSum(int[] arr, int target, int st, int end) {
         int fval = arr[st - 1];
         while (st < end) {
-
             if (end != arr.length - 1 && arr[end] == arr[end + 1]) {
                 end--;
                 continue;

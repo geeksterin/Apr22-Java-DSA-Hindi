@@ -14,7 +14,7 @@ public class FirstNonRep {
                 return ch;
             }
         }
-        return "-1";
+        return ' ';
     }
 
     public static int[] createMap(String str) {
