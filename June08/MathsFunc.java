@@ -58,11 +58,14 @@ public class MathsFunc {
         // double ceil = Math.ceil(a);
         // System.out.println("Ceil of a is : " + ceil);
 
-        double a = scn.nextDouble();
-        double floor = floor(a);
-        System.out.println("Floor of a is : " + floor);
-        double ceil = ceil(a);
-        System.out.println("Ceil of a is : " + ceil);
+        // double a = scn.nextDouble();
+        // double floor = floor(a);
+        // System.out.println("Floor of a is : " + floor);
+        // double ceil = ceil(a);
+        // System.out.println("Ceil of a is : " + ceil);
+
+        int a = scn.nextInt();
+        System.out.println(isPrime(a));
 
     }
 
@@ -128,5 +131,16 @@ public class MathsFunc {
         // }
 
         return (int) ((floor == a) ? a : (a + 1));
+    }
+
+    public static boolean isPrime(int n) {
+        boolean prime = true;
+        for (int i = 2; i * i <= n; i++) {
+            if (n % i == 0) {
+                prime = false;
+                break;
+            }
+        }
+        return prime;
     }
 }
