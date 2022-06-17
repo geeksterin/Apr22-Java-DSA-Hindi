@@ -5,6 +5,7 @@ public class NullEmpty {
         // System.out.println(arr);
         // System.out.println(arr1);
 
+
         String[] arr=new String[10];
         
         for(String s:arr){
